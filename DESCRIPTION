@@ -1,7 +1,7 @@
 Package: parttree
 Title: Visualize Simple 2-D Decision Tree Partitions
-Version: 0.1.0
-Date: 2025-10-14
+Version: 0.1.1
+Date: 2025-05-10
 Authors@R: c(
     person(given = "Grant",
            family = "McDermott",
@@ -37,18 +37,21 @@ RoxygenNote: 7.3.2
 URL: https://grantmcdermott.com/parttree/
 BugReports: https://github.com/grantmcdermott/parttree/issues
 Imports: graphics, stats, data.table, partykit, rlang, rpart, tinyplot
-        (>= 0.2.0)
+        (>= 0.3.0)
 Enhances: ggplot2 (>= 3.4.0)
-Suggests: tinytest, tinysnapshot (>= 0.0.3), fontquiver, rsvg, svglite,
-        palmerpenguins, titanic, mlr3, parsnip, workflows, magick,
-        imager, knitr, rmarkdown
+Suggests: tinytest, tinysnapshot (>= 0.0.3), fontquiver, rsvg, svglite
+        (>= 2.2.0), palmerpenguins, titanic, mlr3, parsnip, workflows,
+        magick, imager, knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2025-01-15 02:46:38 UTC; gmcd
-Author: Grant McDermott [aut, cre] (<https://orcid.org/0000-0001-7883-8573>),
-  Achim Zeileis [ctb] (<https://orcid.org/0000-0003-0918-3766>),
-  Brian Heseung Kim [ctb] (<https://orcid.org/0000-0002-7988-1802>),
-  Julia Silge [ctb] (<https://orcid.org/0000-0002-3671-836X>)
+Packaged: 2025-05-10 21:21:23 UTC; grant
+Author: Grant McDermott [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-7883-8573>),
+  Achim Zeileis [ctb] (ORCID: <https://orcid.org/0000-0003-0918-3766>),
+  Brian Heseung Kim [ctb] (ORCID:
+    <https://orcid.org/0000-0002-7988-1802>),
+  Julia Silge [ctb] (ORCID: <https://orcid.org/0000-0002-3671-836X>)
 Maintainer: Grant McDermott <gmcd@amazon.com>
+Depends: R (>= 4.1.0)
 Repository: CRAN
-Date/Publication: 2025-01-16 10:30:02 UTC
+Date/Publication: 2025-05-10 21:40:02 UTC
